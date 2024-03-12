@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+    Documento XML per il corso Codifica di Testi.
+    Per la validazione da terminale con XMLlint: /snap/libxml2/69/bin/xmllint - -postvalid es3.xml
+    In questo caso, però, manca la DTD.
+
+    Filename: es3.xml
+    Author: Alessandra Bottiglieri
+    Date: 12/03/2024 
+-->
+<root>
+    <note>
+        <date>2024-03-12</date> <!--da date a body tutti fratelli-->
+        <to>Angelo Mario Del Grosso</to>
+        <from>Alessandra Bottiglieri</from>
+        <heading>Codifica di Testi</heading>
+            <h2>Esercizio 3</h2> <!--figlio di heading-->
+        <body>Documento XML non opportunamente annidato.</body>
+    </note> <!--corretto errore di annidamento file es2.xml-->
+</root>
